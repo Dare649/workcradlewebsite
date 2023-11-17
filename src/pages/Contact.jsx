@@ -2,9 +2,9 @@ import contact from "../assets/images/wccontactimg.jpg";
 
 const Contact = () => {
   return (
-    <section id='contactUs' className='mb-10'>
+    <section id='contactUs' className='mb-10 w-full'>
       <h1 className="text-center capitalize font-bold text-4xl mb-16">contact us</h1>
-      <div className="flex lg:flex-row sm:flex-col  gap-5 px-8">
+      <div className="flex lg:flex-row sm:flex-col gap-5 lg:px-8 sm:px-0 md:px-0">
         <img src={contact} alt="" className="lg:w-[50%] sm:w-full"/>
         <form className="lg:w-[50%] sm:w-full align-center justify-center">
           <div class="grid md:grid-cols-2 md:gap-6 ">
